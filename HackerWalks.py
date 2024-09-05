@@ -6,7 +6,6 @@ from colorama import init, Fore, Style
 init()
 
 def display_ascii_art():
-    """Display ASCII art with gradient effect."""
     art = f"""
 {Fore.BLUE}
  /$$   /$$  /$$$$$$   /$$$$$$  /$$   /$$ /$$$$$$$$ /$$$$$$$  /$$      /$$  /$$$$$$  /$$       /$$   /$$  /$$$$$$ 
@@ -25,7 +24,6 @@ def display_ascii_art():
     print(art)
 
 def run_nmap_command(intensity_level, target):
-    """Run the appropriate nmap command based on intensity level."""
     if intensity_level == "1":
         command = ["nmap", "-sn", target]  # Basic ping scan
     elif intensity_level == "2":
