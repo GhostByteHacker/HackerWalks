@@ -2,7 +2,6 @@ import os
 import subprocess
 from colorama import init, Fore, Style
 
-# Initialize colorama for colored terminal text
 init()
 
 def display_ascii_art():
