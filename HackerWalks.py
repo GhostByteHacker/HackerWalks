@@ -48,7 +48,7 @@ def choose_information_gathering_tools():
         print("3. Back to main menu")
 
         option = input(Fore.GREEN + "Enter the tool you would like to use (1-3): " + Style.RESET_ALL)
-	
+
         if option == "1":
             choose_nmap_intensity()
         elif option == "2":
