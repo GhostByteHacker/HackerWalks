@@ -24,11 +24,11 @@ def display_ascii_art():
 
 def run_nmap_command(intensity_level, target):
     if intensity_level == "1":
-        command = ["nmap", "-sn", target]  # Basic ping scan
+        command = ["nmap", "-sn", target]
     elif intensity_level == "2":
-        command = ["nmap", "-sV", target]  # Regular scan (service and version detection)
+        command = ["nmap", "-sV", target]
     elif intensity_level == "3":
-        command = ["nmap", "-A", target]   # Aggressive scan
+        command = ["nmap", "-A", target]
     else:
         print(Fore.RED + "Invalid intensity level. Please select a number between 1 and 3." + Style.RESET_ALL)
         return
@@ -66,7 +66,7 @@ def choose_nmap_intensity():
         intensity_level = input(Fore.GREEN + "Enter the scan intensity level (1-4): " + Style.RESET_ALL)
         
         if intensity_level == "4":
-            return  # Go back to the main menu
+            return
 
         target = input(Fore.GREEN + "Enter the target IP address or domain to scan: " + Style.RESET_ALL)
         run_nmap_command(intensity_level, target)
