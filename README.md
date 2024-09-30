@@ -15,7 +15,6 @@
 - [Usage](#usage)
 - [Tools Integrated](#tools-integrated)
 - [Contributing](#contributing)
-- [License](#license)
 - [Disclaimer](#disclaimer)
 
 ## Introduction
@@ -135,10 +134,6 @@ git push origin feature/YourFeature
 ```
 
 ### 5. Submit a Pull Request
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Disclaimer
 
