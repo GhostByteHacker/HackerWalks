@@ -50,7 +50,7 @@ HackerWalks is an ethical hacking tool designed to organize and streamline vario
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/hackerwalks.git
+git clone https://github.com/GhostByteHacker/hackerwalks.git
 ```
 
 ### 2. Navigate to the Project Directory
